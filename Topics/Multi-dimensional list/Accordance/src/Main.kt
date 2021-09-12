@@ -1,0 +1,1 @@
+fun main() = MutableList(2) { row -> MutableList(3) { column -> "[$row][$column]" } }.let(::print)

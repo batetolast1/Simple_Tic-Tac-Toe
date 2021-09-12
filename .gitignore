@@ -1,0 +1,31 @@
+# Project exclude paths
+/.gradle/
+/Simple Tic-Tac-Toe/task/build/
+/Simple Tic-Tac-Toe/task/out/
+/Simple Tic-Tac-Toe/task/out/production/classes/
+/Topics/For loop and lists/Count occurrences/out/
+/Topics/For loop and lists/Count occurrences/out/production/classes/
+/Topics/For loop and lists/For loops task/out/
+/Topics/For loop and lists/For loops task/out/production/classes/
+/Topics/For loop and lists/The index of the first max/out/
+/Topics/For loop and lists/The index of the first max/out/production/classes/
+/Topics/For loop and lists/Triples/out/
+/Topics/For loop and lists/Triples/out/production/classes/
+/Topics/If expression/Triangle/out/
+/Topics/If expression/Triangle/out/production/classes/
+/Topics/Integers in action/The first digit of a two-digit number/out/
+/Topics/Integers in action/The first digit of a two-digit number/out/production/classes/
+/Topics/Multi-dimensional list/Accordance/out/
+/Topics/Multi-dimensional list/Accordance/out/production/classes/
+/Topics/Multi-dimensional list/Cube of zeros/out/
+/Topics/Multi-dimensional list/Cube of zeros/out/production/classes/
+/Topics/Mutable list/Initializing a list/out/
+/Topics/Mutable list/Initializing a list/out/production/classes/
+/Topics/Mutable list/Initializing a mutable list of longs/out/
+/Topics/Mutable list/Initializing a mutable list of longs/out/production/classes/
+/Topics/Mutable list/Swap/out/
+/Topics/Mutable list/Swap/out/production/classes/
+/Topics/String arrays/Adding arrays/out/
+/Topics/String arrays/Adding arrays/out/production/classes/
+/Topics/Work with MutableLists/Playing with numbers/out/
+/Topics/Work with MutableLists/Playing with numbers/out/production/classes/
