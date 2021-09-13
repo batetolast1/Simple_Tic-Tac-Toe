@@ -92,4 +92,16 @@ class Board(input: String) {
 
         return BoardState.NOT_FINISHED
     }
+
+    fun canMakeMove(coordinates: List<Int>): Boolean {
+        val x = coordinates[0] - 1
+        val y = coordinates[1] - 1
+        return board[x][y] == BLANK
+    }
+
+    fun makeMove(coordinates: List<Int>) {
+        val x = coordinates[0] - 1
+        val y = coordinates[1] - 1
+        board[x][y] = X
+    }
 }

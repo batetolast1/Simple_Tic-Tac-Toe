@@ -1,0 +1,1 @@
+fun main() = readLine()!!.let { if (it.reversed() == it) "yes" else "no" }.let(::print)
