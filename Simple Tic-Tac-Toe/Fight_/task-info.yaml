@@ -430,7 +430,24 @@ files:
         }
     }
   learner_created: false
+- name: src/tictactoe/BoardState.kt
+  visible: true
+  text: |
+    package tictactoe
+
+    enum class BoardState(val description: String) {
+
+        X_WINS("X wins"),
+        O_WINS("O wins"),
+        DRAW("Draw"),
+        NOT_FINISHED("Game not finished"),
+        IMPOSSIBLE("Impossible")
+    }
+  learner_created: true
 - name: src/tictactoe/Board.kt
+  visible: true
+  learner_created: true
+- name: src/tictactoe/TicTacToeBoard.kt
   visible: true
   text: |
     package tictactoe
@@ -541,20 +558,22 @@ files:
         }
     }
   learner_created: true
-- name: src/tictactoe/BoardState.kt
+- name: src/tictactoe/Field.kt
   visible: true
-  text: |
-    package tictactoe
-
-    enum class BoardState(val description: String) {
-
-        X_WINS("X wins"),
-        O_WINS("O wins"),
-        DRAW("Draw"),
-        NOT_FINISHED("Game not finished"),
-        IMPOSSIBLE("Impossible")
-    }
+  learner_created: true
+- name: src/tictactoe/Player.kt
+  visible: true
+  learner_created: true
+- name: src/tictactoe/BoardGame.kt
+  visible: true
+  learner_created: true
+- name: src/tictactoe/TicTacToeGame.kt
+  visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/123/stages/658/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Sun, 19 Sep 2021 12:48:36 UTC
 record: -1
